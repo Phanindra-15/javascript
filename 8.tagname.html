@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>referring html elements by tag name</title>
+    <script type="text/javascript">
+      function bodyload(){
+      var x=document.getElementsByTagName('img');
+      alert("total no.of images in page"+x.length)
+
+      }
+
+    </script>
+  </head>
+  <body onload="bodyload()">
+        <div class="">
+          <img src="china.png" alt="">
+
+        </div>
+
+
+  </body>
+</html>
